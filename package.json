@@ -1,6 +1,6 @@
 {
   "name": "vibe-is-odd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check if a number is odd using ai",
   "main": "index.js",
   "type": "module",
