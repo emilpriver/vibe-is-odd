@@ -23,30 +23,7 @@ export AI_MODEL="gpt-4o"  # optional, this is the default
 
 ### Other Providers
 
-You can use any AI SDK provider! Install the provider package and set the appropriate API key:
-
-**Anthropic:**
-```bash
-npm install @ai-sdk/anthropic
-export ANTHROPIC_API_KEY="your-api-key-here"
-export AI_MODEL="claude-3-5-sonnet-20241022"
-```
-
-**Google:**
-```bash
-npm install @ai-sdk/google
-export GOOGLE_GENERATIVE_AI_API_KEY="your-api-key-here"
-export AI_MODEL="gemini-1.5-pro"
-```
-
-**Groq:**
-```bash
-npm install @ai-sdk/groq
-export GROQ_API_KEY="your-api-key-here"
-export AI_MODEL="llama-3.1-8b-instant"
-```
-
-See the [full list of supported providers](https://ai-sdk.dev/providers/ai-sdk-providers) for more options.
+vibe-is-odd uses the AI SDK, so you can use any supported provider! See the [AI SDK documentation](https://ai-sdk.dev/providers/ai-sdk-providers) for setup instructions for Anthropic, Google, Groq, and other providers.
 
 ## Usage
 
