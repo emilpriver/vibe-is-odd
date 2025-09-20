@@ -1,0 +1,14 @@
+{
+  "name": "vibe-is-odd",
+  "version": "1.0.0",
+  "description": "Check if a number is odd using ai",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/emilpriver/vibe-is-odd",
+  "author": "emilpriver",
+  "license": "MIT",
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.32",
+    "ai": "^5.0.47"
+  }
+}
